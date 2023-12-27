@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.textlightgreen{
+    color: #5ABFAB;
+}
+
+.textdarkgreen {
+    color:#5A7081 ;
+}
+
+.OurStoryH1 {
+    font-weight: 600;
+}
+
+.headerspancss{
+    font-size: 13px;
+}
+
+header{
+    height: 39px;
+    background: #5ABFAB;
+}
+
+.H3Logo {
+    color: #5ABFAB;
+    padding-top: 24px;
+    font-weight: 700;
+}
+
+.PLogo {
+    color: #5A7081;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+nav a {
+    font-weight: 500 !important;
+    color: rgb(149, 148, 148) !important;
+}
+
+nav a:hover {
+    color: #5ABFAB  !important;
+}
+.Home {
+    color: #5ABFAB !important;
+}
+
+nav button {
+    border: 2px solid #5A7081 !important;
+    border-radius: 24px !important;
+    width: 110px !important;
+    color: #45657e !important;
+}
+
+nav button:hover {
+    background-color: #45657e !important;
+    color: #ffffff  !important;
+}
+
+.DivNav {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
+}
+
+.section1{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%, 80% 50%, 100% 50%); */
+}
+.DivImgSct1 {
+    height: 650px;
+    /* clip-path: polygon(0 0, 100% 0%, 60% 100%, 0% 100%); */
+
+}
+
+.carousel-item {
+    height:650px ;
+    clip-path: polygon(0 0, 100% 0%, 60% 100%, 0% 100%)
+}
+
+.DivImgSct1 .CarouselBtn {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    /* background: #1a252e; */
+    box-shadow: 1px 1px 1px black;
+    
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #2b4b64;
+    opacity: 1 !important;
+    height: 70px !important;
+}
+
+.DivHumanity {
+    position:absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+.DivHumanity h3 {
+    color: #5A7081;
+    font-weight: 100px !important;
+    text-align: end;
+    font-size: 42px;
+}
+
+.DivHumanity p {
+    color: rgb(135, 134, 134);
+}
+
+
+.section2 {
+    width: 100%;
+    height: 530px;
+    padding-top: 90px;
+}
+.section2 h4 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #3a5a71;
+}
+.BoxContainer {
+    margin-top: 80px;
+}
+
+.span1 {
+    color: #5ABFAB;
+    text-align: center;
+}
+.span2 {
+    /* color: #4da795; */
+    font-weight: 700;
+    color: #5ABFAB;
+    text-align: center;
+}
+
+.box {
+    width: 20%;
+    /* background-color: red; */
+}
+
+/* .box span {
+    font-size: 20px;
+    padding-top: 33px;
+    letter-spacing: 1px;
+    position: relative !important;
+    bottom: -6px !important;
+} */
+
+.span1, .span2 {
+    /* font-size: 20px;
+    letter-spacing: 1px; */
+    /* bottom: -6px !important; */
+}
+
+.SpansSct2 {
+    margin-top: 17px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.box .imgbox {
+    margin-left: 30px;
+}
+
+.section3 {
+    width: 100%;
+    height: 700px;
+    background-color: #d7e6f1;
+}
+
+.OURSTORYCSS{
+    height: 43%;
+    border-radius:12px ;
+}
+
+.divsidessous{
+    height: 53%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.imgdivcss{
+    height: 550px;
+    width: 630px;
+    border-radius: 12px;
+    background-image: url(./images/group-people-volunteering-foodbank-poor-people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.deuxdiv{
+    width: 49%;
+    border-radius: 12px;
+    padding: 55px;
+    
+}
+
+.deuxdiv h1 {
+    font-size: 45px;
+}
+
+.box {
+    border-radius: 8px;
+    padding-left: 30px;
+}
+
+.box:hover {
+    transform: scale(1.07);
+    box-shadow: 1px 1px 14px rgb(206, 205, 205);
+    transition: 0.4s;
+}
+
+.imgdivsec3{
+    width: 300px;
+    height: 350px;
+    background-image: url(./images/portrait-volunteer-who-organized-donations-charity.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(207, 205, 205);
+}
+
+.section4{
+    height: 550px;
+}
+
+.section4 h5{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.section5{
+    height: 300px;
+    background-color: #5ABFAB;
+}
+
+.section6{
+    height: 700px;
+}
+
+.section6 h1{
+    text-align: center;
+}
+
+.card{
+    border-radius: 18px;
+    overflow: hidden;
+    border: none;
+}
+.card button {
+    background:#5A7081 ;
+    border-radius: 0px;
+}
+
+.progress-bar{
+    background-color:#5A7081 ;
+    
+}
+ 
+.card p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5A7081;
+}
+
+
+
+
+.progress {
+    height: 5px;
+    width: 20rem;
+    margin: 0 auto;
+
+}
+
+
